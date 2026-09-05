@@ -1,0 +1,12 @@
+{
+  "name": "pacman-delete",
+  "version": "1.0.0",
+  "description": "A Pac-Man themed desktop file deleter. Solves a problem nobody had.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^31.0.0"
+  }
+}

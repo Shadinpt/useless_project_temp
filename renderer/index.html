@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pac-Man Deleter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Decorative fake macOS menu bar. Nothing here is clickable — purely cosmetic. -->
+  <div id="menubar">
+    <div id="menubar-left">
+      <span class="menu-apple"></span>
+      <span class="menu-item bold">Finder</span>
+      <span class="menu-item">File</span>
+      <span class="menu-item">Edit</span>
+      <span class="menu-item">View</span>
+      <span class="menu-item">Go</span>
+      <span class="menu-item">Window</span>
+      <span class="menu-item">Help</span>
+    </div>
+    <div id="menubar-right">
+      <span class="menu-icon">◧</span>
+      <span class="menu-icon">☾</span>
+      <span class="menu-icon">📶</span>
+      <span class="menu-icon">🔍</span>
+      <span class="menu-icon">👤</span>
+      <span id="menu-battery"><span id="menu-battery-pct">100%</span> 🔋</span>
+      <span id="menu-datetime"></span>
+    </div>
+  </div>
+
+  <div id="hint">Click icons to select · press <kbd>Delete</kbd> or <kbd>Backspace</kbd> to feed Pac-Man
+    &nbsp;·&nbsp; Files eaten: <span id="eaten-count">0</span>
+  </div>
+
+  <div id="stage">
+    <!-- Decorative widgets, scattered like real macOS desktop widgets. No click behavior. -->
+    <div class="widget widget-date">
+      <div class="widget-date-day" id="widget-day"></div>
+      <div class="widget-date-num" id="widget-num"></div>
+    </div>
+    <div class="widget widget-clock" id="widget-clock">11:48</div>
+    <div class="widget widget-battery">
+      <div class="widget-battery-ring"></div>
+      <div class="widget-battery-label">100%</div>
+    </div>
+
+    <div id="icon-grid"></div>
+    <!-- Pac-Man sprite gets injected here at runtime -->
+  </div>
+
+  <!-- Decorative dock, purely cosmetic, no click behavior. -->
+  <div id="dock">
+    <div class="dock-icon">🖥️</div>
+    <div class="dock-icon">🌐</div>
+    <div class="dock-icon">✉️</div>
+    <div class="dock-icon">🎵</div>
+    <div class="dock-icon">🗑️</div>
+  </div>
+
+  <div id="combo-popup" class="hidden">1x COMBO!</div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
