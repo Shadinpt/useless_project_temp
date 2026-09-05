@@ -6,13 +6,13 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Lemon🍋
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Shadin PT - scms collage of engineering and technology 
+- Member 2: shayaan KP - scms collage of engineering and technology 
+
 
 ### Project Description
 [2-3 lines about what your project does]
