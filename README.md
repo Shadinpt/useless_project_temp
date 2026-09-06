@@ -1,8 +1,8 @@
-<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/608b96f4-d593-4069-b5cf-1fedb730033a" /><img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
 
 
-# [Project Name] 🎯
+# PAC-MAN`s trash 🎯
 
 
 ## Basic Details
@@ -10,88 +10,64 @@
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [shadin pt] - [scms collage of engineering and technoogy]
+- Member 2: [shayaan kp] - [scms collage of engineering and technoogy]
 
 ### Project Description
-[2-3 lines about what your project does]
+a software that makes its so that when we delete an icon, the game character PAC-MAN emerges from below and chases and eats the icon to be deleted.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[Deleting files on macOS is too quiet, too polite, and too lacking in cardio..]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Pac-Man Deleter fixes this — every file you delete is now hunted down by a pixel-art Pac-Man before it's allowed to die. Now the files can see it coming, and for the survivors, it sets an example.
 
 ## Technical Details
-### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+### Technologies/Components Used
+
+**For Software:**
+- Languages: JavaScript, HTML, CSS
+- Frameworks: Electron
+- Libraries: Node.js `fs` module (file system access), Web Audio API (synthesized in-game sound effects, no external audio files)
+- Tools: VS Code, npm, Node.js, Git
+
+**For Hardware:**
+- Not applicable — this is a software-only desktop application, no external hardware components used.
 
 ### Implementation
-For Software:
+
+**For Software:**
+
 # Installation
-[commands]
+npm install
 
 # Run
-[commands]
-
+npm start
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/4e174caf-1bd4-4c4f-a749-642819c0fe8e" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*this shows the initial stage where you can see all the icons on the window before clicking delete*
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/49c6189d-4f08-4404-8a5d-ea051096ef7b" />
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+*this shows the stage where the pac-man is chasing the icon to eat/delete it*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/e37903ff-b92a-40e1-a689-1e61709a3d55" />
 
-For Hardware:
+*this image shows the part where the pac-man consumes the icon to delete it*
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
+[
+](https://drive.google.com/file/d/1Mc1Dr5wVteuzAfS_PCzim5oDFBW6rnF1/view?usp=share_link)*
+the whole working nd deletion process which is the pac man chasing the selected icon and chasing after it to consume them and return back to where it came from.
 
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
