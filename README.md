@@ -64,8 +64,7 @@ For Software:
 ### Project Demo
 # Video
 
-[
-](https://drive.google.com/file/d/1Mc1Dr5wVteuzAfS_PCzim5oDFBW6rnF1/view?usp=share_link)*
+https://drive.google.com/file/d/1Mc1Dr5wVteuzAfS_PCzim5oDFBW6rnF1/view?usp=share_link
 the whole working nd deletion process which is the pac man chasing the selected icon and chasing after it to consume them and return back to where it came from.
 
 
